@@ -29,8 +29,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.intro__tagline{
+	font-weight: 300;
+    max-width: 400px;
+	font-size: 1.75rem;
+	text-align: left;
+}
+.images.fit img{
+	width: 30px;
+	height: 30px;
+}
+
+.gifs.fit img{
+	width: 100px;
+	height: 100px;
+}
+
+.gifs.fits img{
+	width: 230px;
+	height: 150px;
+}
+
 body {
 	line-height: 1;
+}
+.Next_In_life{
+	font-weight: 300;
+    max-width: 400px;
+	font-size: 1.75rem;
+	text-align: center;
 }
 
 ol, ul {
@@ -71,6 +98,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
 
 /* Basic */
 
@@ -186,7 +214,6 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
 		margin: 0 7 1rem 0;
 	}
 
@@ -245,9 +272,15 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.75rem;
-		line-height: 1.3;
-		margin: 0 0 1.5rem 0;
+		font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+		display: block;
+    	font-size: 1.5em;
+    	margin-block-start: 0.83em;
+    	margin-block-end: 0.83em;
+    	margin-inline-start: 0px;
+    	margin-inline-end: 0px;
+    	font-weight: bold;
+    	unicode-bidi: isolate;
 	}
 
 	h3 {
@@ -3831,7 +3864,7 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3922,7 +3955,8 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 0;
+					border-top-width: 4;
+					border-bottom-width: 0;
 				}
 
 			@media screen and (max-width: 980px) {
