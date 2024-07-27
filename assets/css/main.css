@@ -39,6 +39,11 @@ footer, header, hgroup, menu, nav, section {
 	width: 30px;
 	height: 30px;
 }
+.images.fits img{
+	width: 30px;
+	height: 30px;
+	
+}
 
 .gifs.fit img{
 	width: 100px;
@@ -46,10 +51,25 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .gifs.fits img{
-	width: 230px;
+	width: 270px;
 	height: 150px;
 }
+.zoomed-photo {
+	border-radius: 50%;
+	width: 250px;  /* Adjusted for quarter size */
+	height: 250px;
+	overflow: hidden;
+	display: inline-block;
+	transform: translateY(-500px);
+}
 
+.zoomed-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Ensures the image covers the entire container */
+	transform: scale(1.5); /* Adjust the scale to zoom in */
+	
+}
 body {
 	line-height: 1;
 }
@@ -59,6 +79,14 @@ body {
 	font-size: 1.75rem;
 	text-align: center;
 }
+
+.container {
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	margin-bottom: 0%;
+	
+  }
 
 ol, ul {
 	list-style: none;
