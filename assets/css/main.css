@@ -60,7 +60,7 @@ footer, header, hgroup, menu, nav, section {
 	height: 250px;
 	overflow: hidden;
 	display: inline-block;
-	transform: translateY(-500px);
+	transform: translateY(-600px);
 }
 
 .zoomed-photo img {
