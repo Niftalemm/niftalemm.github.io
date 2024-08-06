@@ -84,9 +84,9 @@ body {
 	display: flex;
 	align-items: right;
 	justify-content: right;
-	margin-bottom: 0%;
-	
-  }
+	margin-bottom: 0;
+	height: 4vh;
+}
 
 ol, ul {
 	list-style: none;
@@ -2692,6 +2692,15 @@ input, select, textarea {
 		}
 
 /* Image */
+.image.left {
+	float: left;
+	margin: 0 2rem 2rem 0;
+	top: 0.90rem;
+	width: 60%;
+	-moz-box-shadow: 10px 5px 6px #808080; 
+	-webkit-box-shadow: 5px 5px 6px #808080; 
+	box-shadow: 5px 5px 6px #808080;
+}
 
 	.image {
 		border: 0;
@@ -2703,24 +2712,24 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		 .image.right {
 			max-width: 40%;
+			-moz-box-shadow: 10px 5px 6px #808080; 
+			-webkit-box-shadow: 5px 5px 6px #808080; 
+			box-shadow: 5px 5px 6px #808080;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+				height: 200%;
 			}
 
-		.image.left {
-			float: left;
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-		}
+
 
 		.image.right {
 			float: right;
 			margin: 0 0 2rem 2rem;
-			top: 0.75rem;
+			
 		}
 
 		.image.fit {
@@ -3870,7 +3879,7 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
 		}

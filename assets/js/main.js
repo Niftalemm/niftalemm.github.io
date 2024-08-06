@@ -126,6 +126,10 @@
 	// Nav Panel.
 
 		// Toggle.
+		$(".h3").hover(function()
+{ 
+   $(this).toggleClass('classWithShadow');
+});
 			$navPanelToggle = $(
 				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
 			)
