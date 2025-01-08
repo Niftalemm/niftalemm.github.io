@@ -1,43 +1,38 @@
-# This is my first Landing page website :)
+# My First Landing Page Website
 
+Welcome to my first landing page website! Check it out [here](https://niftalemm.github.io/Personal_website/).
 
+## About the Project
 
+This project is built using the **Massively** template by [HTML5 UP](https://html5up.net/). It is a text-heavy, article-oriented design with a huge background image and new parallax implementation, along with scroll effects powered by **Scrollex**. This template is a departure from the one-pagers I've done lately, fulfilling user requests and incorporating new techniques I've wanted to try.
 
-check it out here: https://niftalemm.github.io/Personal_website/
+## Features
 
+- **Parallax Background**: A new parallax implementation.
+- **Scroll Effects**: Powered by Scrollex.
+- **Responsive Design**: Ensures the website looks great on all devices.
 
+## Demo Images
 
+Demo images are courtesy of [Unsplash](https://unsplash.com), a collection of CC0 (public domain) images.
 
+## Credits
 
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+- **Demo Images**: Unsplash
+- **Icons**: [Font Awesome](https://fontawesome.io)
+- **Other Libraries**: 
+  - [jQuery](https://jquery.com)
+  - [Scrollex](https://github.com/ajlkn/jquery.scrollex)
+  - [Responsive Tools](https://github.com/ajlkn/responsive-tools)
 
+## License
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+Massively by HTML5 UP is free for personal and commercial use under the [CCA 3.0 license](https://html5up.net/license).
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Author
 
-(* = not included)
+- AJ (@ajlkn)
+- Email: aj@lkn.io
+- Twitter: [@ajlkn](https://twitter.com/ajlkn)
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Enjoy the website!
