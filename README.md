@@ -1,8 +1,8 @@
-Here is an improved version of your README with better formatting and structure:
+
 
 # My First Landing Page Website
 
-Welcome to my first landing page website! Check it out [here](https://niftalemm.github.io/Personal_website/).
+Welcome to my first landing page website! Check it out [here](https://niftalemm.github.io/).
 
 ## About the Project
 
