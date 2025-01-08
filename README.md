@@ -14,9 +14,6 @@ This project is built using the **Massively** template by [HTML5 UP](https://htm
 - **Scroll Effects**: Powered by Scrollex.
 - **Responsive Design**: Ensures the website looks great on all devices.
 
-## Demo Images
-
-Demo images are courtesy of [Unsplash](https://unsplash.com), a collection of CC0 (public domain) images.
 
 ## Credits
 
